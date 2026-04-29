@@ -225,18 +225,3 @@ CSV 字段包括：
 - 理解多 Agent 协作、长链推理和中间结果可追踪的重要性；
 - 具备将 AI 能力产品化、工程化和可演示化的能力。
 
-## GitHub 上传
-
-如果本机已安装 GitHub CLI：
-
-```bash
-gh repo create xhs-agent-content-pipeline --public --source=. --remote=origin --push
-```
-
-如果没有安装 `gh`，先在 GitHub 网页端创建同名空仓库，然后执行：
-
-```bash
-git remote add origin https://github.com/<your-name>/xhs-agent-content-pipeline.git
-git branch -M main
-git push -u origin main
-```
