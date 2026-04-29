@@ -1,0 +1,15 @@
+.env
+auth/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+outputs/*.csv
+outputs/*.json
+outputs/pycache_verify/
+playwright/.cache/
+ms-playwright/
+*.log
